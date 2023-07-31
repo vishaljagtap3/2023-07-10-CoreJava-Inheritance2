@@ -1,0 +1,10 @@
+by overriding
+1. Hide the base class implementation of a method
+2. Extend a method / add more functionality to a method
+3. Polymorphism
+
+///
+An object of derived class can always be treated as an object of base class - yes
+
+Using base class ref we can refer to derived class object, however we can not
+access derived class specific data/functions.
