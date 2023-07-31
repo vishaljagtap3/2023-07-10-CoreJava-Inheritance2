@@ -2,6 +2,24 @@ public class Main {
     public static void main(String[] args) {
 
         Shape s = new Circle(100, 100, 100);
+        s.draw();
+
+        //s.setR(50); //will not work
+        //s.getR(); //will not work
+
+        if (s instanceof Circle){
+            ((Circle) s).setR(50);
+            System.out.println(((Circle) s).getR());
+            s.draw();
+        }
+
+        if(s instanceof Rect){
+            ((Rect) s).setW(100);
+            ((Rect) s).setH(100);
+        }
+
+        //2
+       /* Shape s = new Circle(100, 100, 100);
         s.setY(200);
         s.setY(200);
         s.getX();
@@ -15,7 +33,7 @@ public class Main {
 
         Screen.drawShape(new Circle(0, 0, 0));
         System.out.println();
-        Screen.drawShape(new Rect(1, 1, 1, 1));
+        Screen.drawShape(new Rect(1, 1, 1, 1));*/
 
         //Circle c = new Circle(100, 100, 100);
 
