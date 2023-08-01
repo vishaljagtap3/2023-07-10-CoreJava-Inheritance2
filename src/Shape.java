@@ -1,4 +1,5 @@
-public class Shape {
+public abstract class Shape {
+
     private int x;
     private int y;
 
@@ -13,9 +14,11 @@ public class Shape {
         this.y = y;
     }
 
-    public void draw() {
+    public abstract void draw();
+
+    /*public void draw() {
         System.out.println("x = " + x  + " y = " + y);
-    }
+    }*/
 
     public int getX() {
         return x;

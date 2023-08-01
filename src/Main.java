@@ -4,6 +4,16 @@ public class Main {
         Shape s = new Circle(100, 100, 100);
         s.draw();
 
+        s = new Rect(200, 200, 10, 10);
+        s.draw();
+
+        //Shape s1 = new Shape();
+
+
+        //3
+        /*Shape s = new Circle(100, 100, 100);
+        s.draw();
+
         //s.setR(50); //will not work
         //s.getR(); //will not work
 
@@ -16,7 +26,7 @@ public class Main {
         if(s instanceof Rect){
             ((Rect) s).setW(100);
             ((Rect) s).setH(100);
-        }
+        }*/
 
         //2
        /* Shape s = new Circle(100, 100, 100);

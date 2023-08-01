@@ -32,7 +32,8 @@ public class Rect extends Shape {
 
     @Override
     public void draw() {
+        System.out.println("x = " + getX()  + " y = " + getY());
         System.out.println("w = " + w + " h = " + h);
-        super.draw();
+        //super.draw();
     }
 }
